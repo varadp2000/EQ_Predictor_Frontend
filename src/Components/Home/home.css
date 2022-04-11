@@ -1,0 +1,11 @@
+.maindiv{
+    background-image: url('https://www.gstatic.com/earth/social/00_generic_facebook-001.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 92vh;
+    color:white;
+    text-align:center;
+    padding-top: 300px;
+}
