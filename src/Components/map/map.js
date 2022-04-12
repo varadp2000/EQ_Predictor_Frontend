@@ -62,7 +62,7 @@ const MapNew = () => {
         style={{ height: "700px" }}
         onChangeLocation={handleChangeLocation}
         onChangeZoom={handleChangeZoom}
-        apiKey="AIzaSyDDZimHVsGCUcvy5XIb41oUblr6nA1QX0I"
+        apiKey=process.ENV.GOOGLE_MAPS_API_KEY
       />
     </div>
   );
